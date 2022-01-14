@@ -1,0 +1,30 @@
+.container {
+  top: 30%;
+  padding: 30px;
+  border: 20px blue;
+  background-color: grey;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  border-radius: 25px;
+}
+
+.imgHolder {
+  display: inline-block;
+  vertical-align: top;
+
+  width: 30%;
+  margin: 5px 10px 0 0;
+}
+
+.img {
+  width: 100%;
+}
+
+.text {
+  display: inline-block;
+  width: 65%;
+  @media (max-width: 620px) {
+    width: 100%;
+  }
+}
